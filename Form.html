@@ -2,60 +2,39 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>About Applications | Hot Beans Web</title>
+<title>Apply | Hot Beans Web</title>
 <meta name="keywords" content="Web Design, Careers, Hot Beans Web">
-<meta name="description" content="Find out how to apply for roles at Hot Beans Web.">
-<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet">
+<meta name="description" content="Apply for web development jobs at Hot Beans Web.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link href="default.css" rel="stylesheet" type="text/css" media="all">
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
 <div id="wrapper">
-  <div id="header-wrapper">
-    <div id="header" class="container">
-      <div id="logo">
-        <h1>Hot Beans Web</h1>
-        <p>applications</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="menu-wrapper">
-    <div id="menu" class="container">
-      <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="Developers.html">Developers</a></li>
-        <li><a href="Jobs.html">Jobs</a></li>
-        <li><a href="Links.html">Links</a></li>
-        <li class="current_page_item"><a href="Form.html">Apply</a></li>
-      </ul>
-    </div>
-  </div>
-
+  <div id="header-wrapper"><div id="header" class="container"><div id="logo"><h1>Hot Beans Web</h1><p>apply</p></div></div></div>
+  <div id="menu-wrapper"><div id="menu" class="container"><ul>
+    <li><a href="index.html">Homepage</a></li><li><a href="Developers.html">Developers</a></li><li><a href="Jobs.html">Jobs</a></li><li><a href="Links.html">Links</a></li><li class="current_page_item"><a href="Form.html">Apply</a></li>
+  </ul></div></div>
   <div id="banner"></div>
   <div id="page" class="container">
     <div id="content">
-      <div class="title">
-        <h2>Apply via the Jobs Page</h2>
-        <span class="byline">We moved our application form to keep everything in one place.</span>
-      </div>
-      <p>To apply for a role, please head to the <a href="Jobs.html">Jobs page</a>. You can browse current openings and submit one application directly from there.</p>
-      <p>We review applications weekly and reply to shortlisted candidates as quickly as possible.</p>
+      <div class="title"><h2>Apply Now</h2><span class="byline">Tell us about your skills and we'll be in touch.</span></div>
+      <section class="application-form">
+        <form method="get" action="Thank%20You.html">
+          <label for="name">Full name</label><input id="name" name="name" type="text" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" required>
+          <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" required>
+          <label for="role">Role applying for</label>
+          <select id="role" name="role" required><option value="">Choose a role</option><option>Trainee Web Developer</option><option>Junior Front-End Developer</option><option>CMS Support Developer</option></select>
+          <label for="portfolio">Portfolio or GitHub link</label><input id="portfolio" name="portfolio" type="url" placeholder="https://">
+          <label for="message">Why should we hire you?</label><textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit">Submit Application</button>
+        </form>
+      </section>
     </div>
-    <div id="sidebar">
-      <div class="box2">
-        <div class="title">
-          <h2>Application Tips</h2>
-        </div>
-        <ul class="style2">
-          <li><a href="#">Tailor your CV to web development roles.</a></li>
-          <li><a href="#">Include a live portfolio or GitHub profile.</a></li>
-          <li><a href="#">Show examples of teamwork and communication.</a></li>
-          <li><a href="#">Mention JavaScript, HTML, CSS, and tooling.</a></li>
-          <li><a href="#">Keep your contact details up to date.</a></li>
-        </ul>
-      </div>
-    </div>
+    <div id="sidebar"><div class="box2"><div class="title"><h2>Application Tips</h2></div><ul class="style2">
+      <li><a href="#">Share 2-3 projects you built yourself</a></li><li><a href="#">Highlight JavaScript and CSS confidence</a></li><li><a href="#">Mention teamwork and communication</a></li><li><a href="#">Include your availability</a></li>
+    </ul></div></div>
   </div>
 </div>
 </body>
