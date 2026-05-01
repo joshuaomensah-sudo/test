@@ -109,3 +109,36 @@ ul.style1 li:first-child, ul.style2 li:first-child { border-top: 0; }
   #portfolio { grid-template-columns: 1fr; }
   #banner { height: 160px; }
 }
+
+.brand-logo { width: 280px; max-width: 100%; height: auto; display: block; margin: 0 auto; }
+
+#header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(8px);
+}
+
+#menu {
+  backdrop-filter: blur(8px);
+}
+
+#content, #sidebar .box2, .column, .job-card, .application-form {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+#content:hover, #sidebar .box2:hover, .column:hover, .job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(17,24,39,.10);
+}
+
+#banner::before {
+  content: "Modern websites for ambitious brands";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  font-weight: 800;
+  font-size: clamp(1.2rem, 2.6vw, 2rem);
+  letter-spacing: .03em;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-labelledby="title desc">
+  <title id="title">Hot Beans Web Logo</title>
+  <desc id="desc">Modern orange gradient hexagon icon with Hot Beans Web wordmark.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M44 8l24 14v28L44 64 20 50V22z" fill="url(#g)"/>
+    <path d="M44 20l13 8v16l-13 8-13-8V28z" fill="#111827" opacity=".85"/>
+    <circle cx="44" cy="36" r="6" fill="#f9fafb"/>
+  </g>
+  <text x="86" y="42" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#111827">HOT BEANS</text>
+  <text x="86" y="68" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#f97316">WEB</text>
+</svg>
